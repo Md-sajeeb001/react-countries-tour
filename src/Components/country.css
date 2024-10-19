@@ -1,0 +1,13 @@
+.country{
+    border: 1px solid red ;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 1180px;
+    margin:  0 auto;
+}
